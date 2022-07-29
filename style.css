@@ -22,3 +22,33 @@ body {
 .back-color {
     background-color: #373E98;
 }
+
+
+/*------------- Only For Carousel Text Responsiveness ---------*/
+
+@media screen and (max-width:490px) {
+    .slider-caption h1 {
+        font-size: 20px;
+    }
+
+    .slider-caption p {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .slider-caption a {
+        margin: 0 auto !important;
+        font-size: 10px;
+        padding: 2px 5px !important;
+    }
+}
+
+@media screen and (max-width:260px) {
+    .slider-caption h1 {
+        font-size: 15px;
+    }
+
+    .slider-caption p {
+        font-size: 8px;
+    }
+}
